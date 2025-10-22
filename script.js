@@ -1,5 +1,5 @@
 document.getElementById('cta').addEventListener('click', () => {
-  alert('Danke! NovaPlan-Demo wird bald verfügbar sein.');
+  alert('Thank you! NovaPlan demo will be available soon.');
 });
 
 window.addEventListener('scroll', () => {
