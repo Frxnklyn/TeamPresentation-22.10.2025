@@ -1,0 +1,142 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #1b1b1b;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* HEADER */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a100ff;
+  color: white;
+  padding: 30px 80px;        /* mehr Platz oben und unten */
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);  /* weicher Schatten */
+}
+
+.logo {
+  font-size: 1.8em;          /* größerer Schriftzug */
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;                 /* mehr Abstand zwischen Links */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05em;
+  transition: opacity 0.3s;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+#cta {
+  background: white;
+  color: #a100ff;
+  border: none;
+  padding: 12px 22px;        /* etwas größerer Button */
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+#cta:hover {
+  background: #eee;
+  transform: translateY(-2px);
+}
+
+
+/* HERO SECTION */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 50px;
+  filter: brightness(0.7);
+  margin-top: 30px;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background-color: #fff;
+
+}
+
+.features div {
+  width: 300px;
+  background-color: #f6f1ff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.features div:hover {
+  transform: translateY(-5px);
+}
+.features img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  background-color: #f7f1ff;
+  text-align: center;
+  padding: 80px 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #444;
+}
+cite {
+  display: block;
+  margin-top: 10px;
+  color: #777;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
