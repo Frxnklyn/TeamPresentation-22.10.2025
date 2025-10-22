@@ -1,1 +1,2 @@
-# TeamPresentation-22.10.2025
+git add
+git commit -mm"my first commit
